@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+.card {
+
+    background-color: black;
+}
+
+
+
+.fa-avianex {
+    color: aqua;
+    text-align: center;
+
+}
+
+.fa-solid {
+    color: aqua;
+    text-align: center;
+}
+
+.pe {
+    color: white;
+    text-align: center;
+
+}
+
+.pe1 {
+    color: white;
+
+}
+
+#tarjetas2 {
+    margin: 10px 20px;
+}
+
+.foo {
+    color:white;
+
+}
+
+.card2{
+ background-color: aqua;   
+}
+
+.fo{
+    background-color: aqua;
+}

@@ -1,14 +1,11 @@
 $(function () {
     var connectVarios = document.getElementsByClassName("connectiontooltip");
-    console.log("mi boton class connectVarios -> ", connectVarios);
-  
+    
     [...connectVarios].map((element) => {
       return new bootstrap.Tooltip(element);
     });
   
     var miBttnConectClass = $(".connect");
-    console.log("mi boton class connect -> ", miBttnConectClass);
-  
     for (const key in miBttnConectClass) {
       if (!isNaN(parseInt(key))) {
                 new bootstrap.Tooltip(miBttnConectClass[key]);
@@ -16,5 +13,15 @@ $(function () {
     }
   
     $("#enviarCorreo").click(function () {
-      alert("El correo fue enviado correctamente...");
+      alert("El formularioS fue enviado correctamente...");
     })});
+
+    const navE1 = document.querySelector(".navbar");
+
+    window.addEventListener(`scroll`,() => {
+      if (window.scrollY >= 56){
+        navE1.classList.add(`navbar-scrolled`);
+      } else if (window.scrollY < 56){
+        navE1.classList.remove(`navbar-scrolled`);
+      }
+    })
